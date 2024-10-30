@@ -1,3 +1,4 @@
+import { Stack } from "@mui/material"; //Divider
 import Box from "@mui/material/Box";
 
 const MuiLayout = () => {
@@ -5,19 +6,62 @@ const MuiLayout = () => {
   //height={"100vh"}
   return (
     <>
-      <Box
+      {/* Use to handle layout in one Diminution  flex flex-col is the default  */}
+      <Stack
         sx={{
-          bgcolor: "secondary.light",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh",
-          color: "white",
+          padding: "20px",
+          height:"100vh",
+          justifyContent:"center",
+          alignItems:"center"
         }}
-        component="section"
+        direction={"row"}
+        spacing={2}
+        // divider={<Divider orientation="vertical" flexItem />}
+
       >
-        This Box renders as an HTML section element.
-      </Box>
+        <Box
+          sx={{
+            bgcolor: "secondary.light",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "250px",
+            width: "250px",
+            color: "white",
+            padding: "16px",
+          }}
+        >
+          This Box renders as an HTML section element.
+        </Box>
+        <Box
+          sx={{
+            bgcolor: "secondary.light",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "250px",
+            width: "250px",
+            color: "white",
+            padding: "16px",
+          }}
+        >
+          This Box renders as an HTML section element.
+        </Box>
+        <Box
+          sx={{
+            bgcolor: "secondary.light",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "250px",
+            width: "250px",
+            color: "white",
+            padding: "16px",
+          }}
+        >
+          This Box renders as an HTML section element.
+        </Box>
+      </Stack>
     </>
   );
 };
