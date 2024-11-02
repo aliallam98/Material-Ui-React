@@ -10,14 +10,13 @@ const MuiLayout = () => {
       <Stack
         sx={{
           padding: "20px",
-          height:"100vh",
-          justifyContent:"center",
-          alignItems:"center"
+          height: "100vh",
+          justifyContent: "center",
+          alignItems: "center",
         }}
         direction={"row"}
         spacing={2}
         // divider={<Divider orientation="vertical" flexItem />}
-
       >
         <Box
           sx={{

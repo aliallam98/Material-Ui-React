@@ -1,14 +1,17 @@
 // import MuiButtons from "./components/MuiButtons";
 // import MuiTypography from "./components/MuiTypography";
 
-import MuiLayout from "./components/MuiLayout";
+import MuiSwitch from "./components/MuiSwitch";
+
+// import MuiLayout from "./components/MuiLayout";
 
 function App() {
   return (
     <>
       {/* <MuiTypography /> */}
       {/* <MuiButtons /> */}
-      <MuiLayout/>
+      {/* <MuiLayout/> */}
+      <MuiSwitch />
     </>
   );
 }
