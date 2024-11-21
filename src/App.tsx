@@ -1,9 +1,11 @@
 // import MuiButtons from "./components/MuiButtons";
 // import MuiTypography from "./components/MuiTypography";
 
+import MuiTooltip from "./components/MuiTooltip";
+
 // import MuiSwitch from "./components/MuiSwitch";
 
-import MuiAccordion from "./components/MuiAccordion";
+// import MuiAccordion from "./components/MuiAccordion";
 // import MuiLayout from "./components/MuiLayout";
 
 // Feedback
@@ -45,7 +47,8 @@ function App() {
       {/* <MuiSwitch /> */}
       {/* <MuiSkeleton/> */}
       {/* <MuiProgress /> */}
-      <MuiAccordion/>
+      {/* <MuiAccordion/> */}
+      <MuiTooltip/>
     </>
   );
 }
