@@ -1,7 +1,9 @@
 // import MuiButtons from "./components/MuiButtons";
 // import MuiTypography from "./components/MuiTypography";
 
-import MuiTooltip from "./components/MuiTooltip";
+import MuiAlert from "./components/MuiAlert";
+
+// import MuiTooltip from "./components/MuiTooltip";
 
 // import MuiSwitch from "./components/MuiSwitch";
 
@@ -48,7 +50,8 @@ function App() {
       {/* <MuiSkeleton/> */}
       {/* <MuiProgress /> */}
       {/* <MuiAccordion/> */}
-      <MuiTooltip/>
+      {/* <MuiTooltip/> */}
+      <MuiAlert/>
     </>
   );
 }
